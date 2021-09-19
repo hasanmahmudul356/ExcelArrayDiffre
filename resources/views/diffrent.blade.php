@@ -9,7 +9,7 @@
 <body>
 
 <div class="container">
-    <h2>Reschedule Diffrent from Due register report</h2>
+    <h2>Different Two Column</h2>
     <ul class="list-group">
         @foreach($loan_codes as $code)
             <li class="list-group-item">{{$code}}</li>
