@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="card bg-light mt-3">
-        <div class="card-header">Import XLSX File</div>
+        <div class="card-header">Compare Two column from XLSX File</div>
         <div class="card-body">
             <form action="{{ route('import') }}" method="POST" enctype="multipart/form-data">
                 @csrf
@@ -23,7 +23,7 @@
                 <div class="form-group">
                     <input type="file" name="file" class="form-control">
                 </div>
-                <button class="btn btn-success">Import User Data</button>
+                <button class="btn btn-success">Submit</button>
             </form>
         </div>
     </div>

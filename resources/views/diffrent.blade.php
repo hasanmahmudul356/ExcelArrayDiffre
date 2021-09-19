@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>Difference</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -9,7 +9,7 @@
 <body>
 
 <div class="container">
-    <h2>Different Two Column</h2>
+    <h2>Difference</h2>
     <ul class="list-group">
         @foreach($loan_codes as $code)
             <li class="list-group-item">{{$code}}</li>
